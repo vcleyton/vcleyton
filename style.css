@@ -23,10 +23,6 @@ header{
     padding: 1rem 2rem;
 }
 
-nav {
-    text-align: right;
-}
-
 img {
     height: 6rem;
     width: 6rem;
@@ -42,7 +38,7 @@ a {
     margin-right: 3.0rem;
 }
 
-.LL::before {
+.action::before {
     display: inline-block;
     content: "";
     background-color: #D7D9CE;
@@ -51,7 +47,7 @@ a {
     margin-right: 1rem;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #D7D9CE;
     color: #000;
@@ -64,7 +60,59 @@ a {
     transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
     opacity: 0.5;
 }
+
+.banner {
+    box-sizing: border-box;
+    background-image: url(assets/IMG/Photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 82rem;
+    border-bottom: 1rem solid #000;
+    padding-top: 11.5rem;
+    padding-left: 9rem;
+}
+
+.banner .box {
+    margin-bottom: 4rem;
+}
+
+.box {
+    display: inline-block;
+    background-color: #13505B;
+    box-shadow: 1rem 1rem 0 #000;
+    text-align: center;
+    padding: 4.2rem 4.4rem;
+}
+
+.box .title {
+    margin-bottom: 2.8rem;
+}
+
+
+.title {
+    font-family: "Press Start 2P", sans-serif;
+    color: #d4f541;
+    text-shadow: 0.5rem 0.5rem 0 #000;
+}
+
+.subtitle {
+    font-family: "Press Start 2P", sans-serif;
+    color: #FFF;
+    text-shadow: 0.4rem 0.4rem 0 #000;    
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 64rem;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
