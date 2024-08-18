@@ -18,7 +18,7 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #13505B;
+    background-color: #073B4C;
     border-bottom: 1rem solid #000;
     padding: 1rem 2rem;
 }
@@ -82,20 +82,20 @@ a {
 
 .box {
     display: inline-block;
-    background-color: #13505B;
+    background-color: #073B4C;
     box-shadow: 1rem 1rem 0 #000;
     text-align: center;
     padding: 4.2rem 4.4rem;
 }
 
-.box .title {
+.box .main-title {
     margin-bottom: 2.8rem;
 }
 
 
-.title {
+.main-title {
     font-family: "Press Start 2P", sans-serif;
-    color: #d4f541;
+    color: #D8F651;
     text-shadow: 0.5rem 0.5rem 0 #000;
 }
 
@@ -116,3 +116,62 @@ a {
     justify-content: space-around;
 }
 
+.section {
+    background-color: #073B4C;
+    border-bottom: 1rem solid #000;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.section .main-title {
+    color: #FFF;
+    text-align: center;
+    text-shadow: none;
+}
+
+.section .title {
+    color: #FFF;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+
+.list {
+    display: flex;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 2.5rem;
+    height: 6rem;
+}
+
+.icon {
+    margin-right: 2.5rem;
+}
+
+.progress-bar {
+    box-sizing: border-box;
+    background-color: #000;
+    border: 0.5rem solid #000;
+    height: 4rem;
+    border-radius: 0%;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #FFF;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #FFF;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #97A1AF;
+}
+
+.progress-bar::-moz-progress-value {
+    background-color: #FFF;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
