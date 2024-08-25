@@ -127,6 +127,7 @@ a {
     color: #FFF;
     text-align: center;
     text-shadow: none;
+    font-size: 3rem;
 }
 
 .section .title {
@@ -174,4 +175,29 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.wrapper-skill {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 96rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-skill .list {
+    width: 43rem;
+    margin-bottom: 4rem;
+}
+
+.wrapper-skill .progress-bar {
+    width: 32rem;
+}
+
+.wrapper-skill .list:nth-child(odd) {
+    margin-right: 10rem;
+}
+
+.section .main-title {
+    margin-bottom: 7rem;
 }
