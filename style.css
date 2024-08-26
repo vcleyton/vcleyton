@@ -118,7 +118,7 @@ a {
 
 .section {
     background-color: #073B4C;
-    border-bottom: 1rem solid #000;
+    border-bottom: 1rem solid #97A1AF;
     padding-top: 5rem;
     padding-bottom: 10rem;
 }
@@ -200,4 +200,44 @@ a {
 
 .section .main-title {
     margin-bottom: 7rem;
+}
+
+.section-projects {
+    background-color: #000;
+    border-bottom: 1rem solid #97A1AF;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.section-projects .main-title {
+    color: #FFF;
+    text-align: center;
+    text-shadow: none;
+    font-size: 3rem;
+    margin-bottom: 10rem;    
+}
+
+.section-projects .card-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18448C;
+    box-shadow: 0.6rem 0.6rem 0 #97A1AF;
+    width: 28rem;
+    height: 28rem;
+}
+
+.section-projects .projectimage {
+    width: 28rem;
+    height: 28rem;
+}
+
+.projectimage.-icopython {
+    width: 24rem;
+    height: 24rem;
+}
+
+.section-projects .wrapper-projects {
+    display: flex;
+    justify-content: space-around;
 }
