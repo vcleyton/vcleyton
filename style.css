@@ -202,14 +202,12 @@ a {
     margin-bottom: 7rem;
 }
 
-.section-projects {
+.section.-projects {
     background-color: #000;
-    border-bottom: 1rem solid #97A1AF;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
 }
 
-.section-projects .main-title {
+.section.-projects .main-title {
     color: #FFF;
     text-align: center;
     text-shadow: none;
@@ -217,7 +215,7 @@ a {
     margin-bottom: 10rem;    
 }
 
-.section-projects .card-project {
+.section.-projects .card-project {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,17 +225,36 @@ a {
     height: 28rem;
 }
 
-.section-projects .projectimage {
+.section.-projects .wrapper-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section.-projects .projectimage {
     width: 28rem;
     height: 28rem;
 }
 
 .projectimage.-icopython {
-    width: 24rem;
-    height: 24rem;
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
-.section-projects .wrapper-projects {
-    display: flex;
-    justify-content: space-around;
+.card-project {
+    transition: transform 200ms linear;
+}
+
+.card-project:hover {
+    transform: scale(1.08);
+}
+
+.section.-sobre {
+    background-color: #251627;
+}
+
+.main-description {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.3;
 }
