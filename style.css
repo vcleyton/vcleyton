@@ -265,7 +265,11 @@ a {
 .section.-contatos {
     background-color: #4B5267;
     border-bottom: none;
-    height: 90rem;
+    height: 87.5rem;
+}
+
+.main-title.-contatos {
+    margin-bottom: 5.5rem;
 }
 
 .main-formulario {
@@ -304,12 +308,12 @@ a {
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
-    transition: transform 100ms linear, opacity 250ms ease-in-out;
+    transition: transform 200ms cubic-bezier(.45,.97,.68,2.48);
+    cursor: pointer;
 }
 
 .button:hover {
-    transform: scale(1);
-    opacity: 0.8;
+    transform: scale(1.02);
 }
 
 .main-rodape {
