@@ -265,16 +265,63 @@ a {
 .section.-contatos {
     background-color: #4B5267;
     border-bottom: none;
+    height: 90rem;
+}
+
+.main-formulario {
+    height: 76.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.wrapper.-contatos {
+    padding-bottom: 2rem;
+}
+
+.label {
+    display: block;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-left: 0.4rem;
+}
+
+.input {
+    width: 136rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    border: 0.5rem solid #000;
+}
+
+.input.-message {
+    height: 30rem;
+    margin-bottom: 1.5rem;
+}
+
+.button.-contatos {
+    background-color: #D0D3C5;
+    width: 136rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    transition: transform 100ms linear, opacity 250ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1);
+    opacity: 0.8;
 }
 
 .main-rodape {
-    height: 10rem;
+    height: 8rem;
     background-color: #000;
     display: flex;
     justify-content: center;
 }
 
 .img-contatos {
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
