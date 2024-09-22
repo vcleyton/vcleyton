@@ -79,13 +79,39 @@ a {
 
 @media (max-width: 980px) {
     .main-header > .menu {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        position: fixed;
+        top: 0rem;
+        right: 0rem;
+        background-color: #000;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .action:first-child {
+        margin-top: 1rem;
+    }
+
+    #buttoncv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4rem;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        box-shadow: none;
     }
 }
 
 .banner {
     box-sizing: border-box;
     background-image: url(assets/IMG/Photo.png);
+    background-color: #000;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 82rem;
@@ -341,4 +367,9 @@ a {
     width: 4rem;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+#zap {
+    height: 4.5rem;
+    width: 4.5rem;
 }

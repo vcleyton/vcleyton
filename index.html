@@ -19,11 +19,11 @@
             <img src="assets/IMG/icon-menu.png" alt="">
         </a>
         <nav id="menu" class="menu">
-            <a href="" class="action">Skills</a>
-            <a href="" class="action">Projetos</a>
-            <a href="" class="action">Sobre</a>
-            <a href="" class="action">Contatos</a>
-            <a href="" class="button">DownloadCV</a>
+                <a href="#skills" class="action">Skills</a>
+                <a href="#projects" class="action">Projetos</a>
+                <a href="#sobre" class="action">Sobre</a>
+                <a href="#contatos" class="action">Contatos</a>
+                <a id="buttoncv" href="" class="button">DownloadCV</a>
         </nav>
     </header>
 
@@ -35,12 +35,12 @@
             </div>
             <div class="navigation">
                 <a href="" class="button">DownloadCV</a>
-                <a href="" class="button">Contatos</a>
+                <a href="#contatos" class="button">Contatos</a>
             </div>    
         </div>
     </section>
 
-    <section class="section">
+    <section id="skills" class="section">
         <h2 class="main-title">Skills</h2>
         <div class="wrapper-skill">
             <article class="list">
@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section class="section -projects">
+    <section id="projects" class="section -projects">
         <h2 class="main-title">Projetos</h2>
         <div class="wrapper-projects">
             <figure class="card-project">
@@ -103,12 +103,12 @@
         </div>
     </section>
 
-    <section class="section -sobre">
+    <section id="sobre" class="section -sobre">
         <h2 class="main-title">Sobre</h2>
         <p class="main-description">Sou um jovem de 20 anos apaixonado por tecnologia e inovação. Atualmente, estou me dedicando ao aprendizado de programação e ciências de dados, áreas que considero fundamentais para o futuro. Adoro resolver problemas complexos e transformar dados em insights valiosos. Estou sempre em busca de novos desafios e oportunidades para aplicar meus conhecimentos e crescer profissionalmente. Além disso, acredito no poder da colaboração e estou ansioso para contribuir com projetos que façam a diferença.</p>
     </section>
 
-    <section class="section -contatos">
+    <section id="contatos" class="section -contatos">
         <h2 class="main-title -contatos">Contatos</h2>
         <form class="main-formulario" action="" method="get">
             <div class="wrapper -contatos">
@@ -135,9 +135,11 @@
             <img src="assets/IMG/icon-discord.png" alt="" class="img-contatos">
         </a>
         <a href="" class="link-contatos">
-            <img src="assets/IMG/icon-twitter.png" alt="" class="img-contatos">
+            <img id="zap" src="assets/IMG/zap2.png" alt="" class="img-contatos">
         </a>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
