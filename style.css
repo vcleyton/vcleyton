@@ -114,10 +114,10 @@ a {
     background-color: #000;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 82rem;
+    height: 56vw;
     border-bottom: 1rem solid #000;
-    padding-top: 11.5rem;
-    padding-left: 9rem;
+    padding-top: 7vw;
+    padding-left: 7vw;
 }
 
 .banner .box {
@@ -129,12 +129,17 @@ a {
     background-color: #073B4C;
     box-shadow: 1rem 1rem 0 #000;
     text-align: center;
-    padding: 4.2rem 4.4rem;
+    width: 45vw;
+    padding: 4vw 4vw;
 }
 
 .box .main-title {
-    margin-bottom: 2.8rem;
-    font-size: 170%;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+
+.box .subtitle {
+    font-size: 1.7vw;
 }
 
 .main-title {
@@ -152,12 +157,25 @@ a {
 .banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 64rem;
+    width: 45vw;
 }
 
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+    width: 45vw;
+}
+
+.navigation .button {
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    text-align: center;
+    width: 12vw;
+    height: 6vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.6vw;
 }
 
 .section {
@@ -187,6 +205,10 @@ a {
     height: 6rem;
 }
 
+.list .title {
+    width: 22.5vw;
+}
+
 .icon {
     margin-right: 2.5rem;
 }
@@ -197,6 +219,7 @@ a {
     border: 0.5rem solid #000;
     height: 4rem;
     border-radius: 0%;
+    width: 22.5vw;
 }
 
 .progress-bar::-webkit-progress-bar {
@@ -224,30 +247,19 @@ a {
 .wrapper-skill {
     display: flex;
     flex-wrap: wrap;
-    max-width: 96rem;
+    justify-content: space-between;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10rem;
 }
 
 .wrapper-skill .list {
-    width: 43rem;
+    width: 30vw;
     margin-bottom: 4rem;
 }
 
-.wrapper-skill .progress-bar {
-    width: 32rem;
-}
-
-.wrapper-skill .list:nth-child(odd) {
-    margin-right: 10rem;
-}
-
 @media (max-width: 980px) {
-    .wrapper-skill .list:nth-child(odd) {
-        margin-right: 0;
-    }
-
     .wrapper-skill {
         flex-direction: column;
         flex-wrap: wrap;
@@ -255,7 +267,12 @@ a {
     }
 
     .wrapper-skill .list {
-        margin-bottom: 5rem;
+        width: 50vw;
+        margin-bottom: 7rem;
+    }
+
+    .progress-bar {
+        width: 30vw;
     }
 }
 
@@ -281,7 +298,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #18448C;
-    box-shadow: 0.6rem 0.6rem 0 #97A1AF;
+    box-shadow: 0.45vw 0.45vw 0 #97A1AF;
     width: 20%;
     height: 20%;
 }
