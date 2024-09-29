@@ -121,7 +121,7 @@ a {
 }
 
 .banner .box {
-    margin-bottom: 4rem;
+    margin-bottom: 4vw;
 }
 
 .box {
@@ -171,8 +171,8 @@ a {
     justify-content: center;
     box-sizing: content-box;
     text-align: center;
-    width: 12vw;
-    height: 6vw;
+    width: 11vw;
+    height: 5vw;
     padding-left: 1vw;
     padding-right: 1vw;
     font-size: 1.6vw;
@@ -263,16 +263,15 @@ a {
     .wrapper-skill {
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .wrapper-skill .list {
-        width: 50vw;
         margin-bottom: 7rem;
     }
 
     .progress-bar {
-        width: 30vw;
+        width: 40vw;
     }
 }
 
@@ -335,10 +334,16 @@ a {
     margin-right: 4rem;  
 }
 
+@media (max-width: 700px) {
+    .main-description {
+        font-size: 1.8rem;
+    }
+}
+
 .section.-contatos {
     background-color: #4B5267;
     border-bottom: none;
-    height: 87.5rem;
+    height: 80rem;
 }
 
 .main-title.-contatos {
@@ -346,7 +351,7 @@ a {
 }
 
 .main-formulario {
-    height: 76.5rem;
+    height: 80%;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -368,10 +373,11 @@ a {
     height: 5rem;
     font-size: 2.5rem;
     border: 0.5rem solid #000;
+    padding-left: 0.5rem;
 }
 
 .input.-message {
-    height: 30rem;
+    height: 20rem;
     margin-bottom: 1.5rem;
 }
 
@@ -394,6 +400,11 @@ a {
     background-color: #000;
     display: flex;
     justify-content: center;
+}
+
+.link-contatos {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .img-contatos {
