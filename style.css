@@ -24,6 +24,8 @@ body {
 }
 
 .icon-menu {
+    background-color: transparent;
+    border: none;
     height: 6rem;
     width: 6rem;
     image-rendering: pixelated;
@@ -33,6 +35,10 @@ body {
     .main-header > .icon-menu {
         display: none;
     }
+}
+
+.mobile-menu {
+    display: none;
 }
 
 img {
@@ -78,16 +84,19 @@ a {
 }
 
 @media (max-width: 980px) {
-    .main-header > .menu {
-        display: flex;
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1.5vw;
         position: fixed;
         top: 0rem;
         right: 0rem;
         background-color: #000;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
     .action:first-child {
@@ -105,6 +114,10 @@ a {
         margin-bottom: 1.5rem;
         text-align: center;
         box-shadow: none;
+    }
+
+    .open {
+        display: flex;
     }
 }
 

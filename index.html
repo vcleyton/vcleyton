@@ -15,9 +15,9 @@
 
     <header class="main-header">
         <img src="assets/IMG/0949c96d-fe39-42e9-bb85-31a3dfcb7b1d.jpeg" alt="Avatar">
-        <a href="#menu" class="icon-menu">
+        <button class="icon-menu" onclick="menuShow()">
             <img src="assets/IMG/icon-menu.png" alt="">
-        </a>
+        </button>
         <nav id="menu" class="menu">
                 <a href="#skills" class="action">Skills</a>
                 <a href="#projects" class="action">Projetos</a>
@@ -25,6 +25,14 @@
                 <a href="#contatos" class="action">Contatos</a>
                 <a id="buttoncv" href="" class="button">DownloadCV</a>
         </nav>
+        <nav id="mobile-menu" class="mobile-menu">
+            <a href="#skills" class="action" onclick="menuShow()">Skills</a>
+            <a href="#projects" class="action" onclick="menuShow()">Projetos</a>
+            <a href="#sobre" class="action" onclick="menuShow()">Sobre</a>
+            <a href="#contatos" class="action" onclick="menuShow()">Contatos</a>
+            <a id="buttoncv" href="" class="button" onclick="menuShow()">DownloadCV</a>
+        </nav>
+
     </header>
 
     <section class="banner">
