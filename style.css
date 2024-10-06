@@ -73,7 +73,7 @@ a {
     line-height: 6.0rem;
     padding-left: 2rem;
     padding-right: 2.0rem;
-    box-shadow: 0.5rem 0.5rem 0rem #000;
+    box-shadow: 0.35vw 0.35vw 0rem #000;
     margin-right: 0rem;
     transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
@@ -149,7 +149,7 @@ a {
 .box {
     display: inline-block;
     background-color: #073B4C;
-    box-shadow: 1rem 1rem 0 #000;
+    box-shadow: 0.75vw 0.75vw 0 #000;
     text-align: center;
     width: 45vw;
     padding: 4vw 4vw;
