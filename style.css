@@ -83,6 +83,15 @@ a {
     opacity: 0.5;
 }
 
+.close-menu {
+    font-family: "Press Start 2P", sans-serif;
+    background-color: #000;
+    color: #D7D9CE;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
 @media (max-width: 980px) {
     .menu {
         display: none;
@@ -384,7 +393,7 @@ a {
 .input {
     width: 100%;
     height: 5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border: 0.5rem solid #000;
     padding-left: 0.5rem;
 }
@@ -392,6 +401,7 @@ a {
 .input.-message {
     height: 20rem;
     margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
 }
 
 .button.-contatos {
