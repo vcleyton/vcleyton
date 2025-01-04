@@ -1,16 +1,21 @@
-## Hi there 👋
+<h1 style="text-align: center;">Cleyton Vinicius 👨‍💻🎲🤖</h1>
 
-<!--
-**vcleyton/vcleyton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos em Python, R e SQL. Atualmente, estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
 
-Here are some ideas to get you started:
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vcleyton&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="R" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
+  <img align="center" alt="Postgres" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="Postgres" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg">
+</div>
+
+##
+
+<div> 
+  <a href="https://discord.gg/4jknwWRB" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/cleyton-vinicius-344372269" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
