@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Cleyton Vinicius 👨‍💻🎲🤖</h1>
 
-Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos em Python, R e SQL. Atualmente, estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
+Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos em Python, R e SQL/NoSQL. Atualmente, estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
 
 <br>
 
