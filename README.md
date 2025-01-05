@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Cleyton Vinicius 👨‍💻🎲🤖</h1>
 
-Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos e domínio nas linguagens Python, R e SQL/NoSQL, além de saber trabalhar com as ferramentas do Excel e Power BI. Atualmente estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
+Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos e domínio nas linguagens Python, R e SQL/NoSQL, além de saber trabalhar com as ferramentas Excel e Power BI. Atualmente estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
 
 <br>
 
