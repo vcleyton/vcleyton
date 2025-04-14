@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Cleyton Vinicius 👨‍💻🎲🤖</h1>
 
-Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos e domínio nas linguagens Python, R e SQL/NoSQL, além de saber trabalhar com as ferramentas Excel e Power BI. Atualmente estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
+Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos e domínio nas linguagens Python e SQL/NoSQL, além de saber trabalhar com as ferramentas Excel e Power BI. Atualmente estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
 
 <br>
 
@@ -8,7 +8,6 @@ Estudante de Ciência de Dados com paixão por transformar dados em insights val
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="R" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
   <img align="center" alt="Postgres" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="Postgres" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg">
   <img align="center" alt="Jupyter" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"/>
