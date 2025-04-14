@@ -1,6 +1,12 @@
 <h1 style="text-align: center;">Cleyton Vinicius 👨‍💻🎲🤖</h1>
 
-Estudante de Ciência de Dados com paixão por transformar dados em insights valiosos. Possuo conhecimentos e domínio nas linguagens Python e SQL/NoSQL, além de saber trabalhar com as ferramentas Excel e Power BI. Atualmente estou desenvolvendo habilidades em machine learning e deep learning, com foco em análise preditiva.
+Olá, seja muito bem vindo ao meu perfil! 
+
+Encantado pela forma como a IA vem evoluindo e transformando o nosso mundo, me tornei um estudante de ciências de dados com o objetivo de aprender como que tudo funciona por debaixo dos panos e de um dia poder fazer parte da criação de uma nova tecnologia que chocará o mundo, assim como a criação do ChatGPT me choucou. 
+
+Possuo domínio na linguagem Python e conhecimento intermediário nas linguagens SQL/NoSQL, mais especificamente no Postgres e no MongoDB, além de saber trabalhar com ferramentas como Excel e Power BI.
+
+Atualmente venho desenvolvendo as minhas habilidades em machine learning e deep learning, através de projetos de aprendizado supervisionado.   
 
 <br>
 
