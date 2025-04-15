@@ -6,7 +6,7 @@ Encantado pela forma como a IA vem evoluindo e transformando o nosso mundo, me t
 
 Possuo domínio na linguagem Python e conhecimento intermediário nas linguagens SQL/NoSQL, mais especificamente no Postgres e no MongoDB, além de saber trabalhar com ferramentas como Excel e Power BI.
 
-Atualmente venho desenvolvendo as minhas habilidades em machine learning e deep learning, através de projetos de aprendizado supervisionado.   
+Atualmente venho desenvolvendo as minhas habilidades em machine learning e deep learning com foco em análise preditiva.   
 
 <br>
 
